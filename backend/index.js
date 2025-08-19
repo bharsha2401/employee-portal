@@ -16,8 +16,10 @@ const app = express();
 app.use(cors({
   origin: [
     'http://localhost:3000',
-    'http://192.168.0.103:3000', // Your IP address
-    'http://127.0.0.1:3000'
+    'http://192.168.0.103:3000',
+    'http://127.0.0.1:3000',
+    'https://68a3eb1eef4ffc00082a91d2--employee-portol.netlify.app',
+    'https://employee-portol.netlify.app'
   ],
   credentials: true
 }));
